@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  
+}
+
+h1 {
+  color: yellow;
+}
+
+
+/* video */
+
+.flexboxheader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+
+}
+  
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  margin-top:10px;
+  margin-bottom:10px;
+  background-color: white;
+  border: yellow 2px solid;
+}
+/* Nav menu */
+
+ul {
+  margin-right: 20px;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+  color:white;
+  }
+
+ a:link, a:visited {
+    color:yellow;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid blue;
+  }
+
+  /* Banner */
+
+  .banner video {
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    width: 100vw;
+    height: 75vh;
+  }
+/* heading h1 */
+
+h1, #para {
+    font-weight:bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-align: center; 
+    width: 75%;
+    margin: auto;
+  
+  }
+
+  #para {
+    font-size: 30px;
+  
+  }
+.heading {
+  
+  background-color: rgb(193, 230, 193);
+  color: black;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+}
+
+
+/* share links*/
+
+.googleicons {
+  color: red;
+  text-align: center;
+
+}
+
+
+/* Images gallery*/
+
+.flexboxpics {
+    display: flex;
+    flex-flow: row wrap;
+    
+  }
+
+.flexboxpics img {
+  border: hotpink 5px solid;
+
+}
+
+/* Paragraphs lorem ipsum */
+
+
+#p1, #p2 {
+  padding: 75px;
+  width: 50%;
+  
+}
+
+#p1 {
+  margin: auto;
+  float: left;
+  clear: left;
+  
+}
+
+#opppara {
+  display: block;
+  padding: 90px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 75px;
+}
+
+/* also works
+#opppara {
+  padding: 75px;
+  float: right;
+  clear: right;
+}
+/*#p2 {
+ 
+  float: right;
+  clear: right;
+ 
+}
+*/
+
+/* footer*/
+
+footer {
+  float: left;
+  clear: both;
+  margin: 20px;
+
+}
+
+@media screen (min-width: 480px) and (max-width: 700px) {
+  #para {
+    width: 50%;
+  }
+}
