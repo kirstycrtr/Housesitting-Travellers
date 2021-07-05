@@ -7,12 +7,8 @@
   
 }
 
-h1 {
-  color: yellow;
-}
 
-
-/* video */
+/* Nav menu */
 
 .flexboxheader {
   display: flex;
@@ -32,7 +28,7 @@ h1 {
   background-color: white;
   border: yellow 2px solid;
 }
-/* Nav menu */
+
 
 ul {
   margin-right: 20px;
@@ -52,7 +48,7 @@ li {
     border: 1px solid blue;
   }
 
-  /* Banner */
+  /* Banner video */
 
   .banner video {
     background-size: cover;
@@ -62,30 +58,28 @@ li {
     width: 100vw;
     height: 75vh;
   }
+
+ 
+
 /* heading h1 */
 
-h1, #para {
-    font-weight:bold;
-    font-size: 50px;
-    margin-bottom: 20px;
-    text-align: center; 
-    width: 75%;
-    margin: auto;
-  
-  }
 
-  #para {
-    font-size: 30px;
+h1 {
   
-  }
-.heading {
-  
-  background-color: rgb(193, 230, 193);
+  background-color: rgb(214, 14, 14);
   color: black;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  text-align: center;
+  font-weight: bold;
 
 }
+
+.heading p {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
 
 
 /* share links*/
@@ -105,6 +99,7 @@ h1, #para {
     
   }
 
+ 
 .flexboxpics img {
   border: hotpink 5px solid;
 
@@ -112,41 +107,30 @@ h1, #para {
 
 /* Paragraphs lorem ipsum */
 
+.newtosit {
+  display: flex;
+  flex-direction: row;
 
-#p1, #p2 {
-  padding: 75px;
-  width: 50%;
-  
 }
-
-#p1 {
-  margin: auto;
-  float: left;
-  clear: left;
-  
-}
-
-#opppara {
-  display: block;
-  padding: 90px;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 75px;
+.new {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
-/* also works
-#opppara {
-  padding: 75px;
-  float: right;
-  clear: right;
+.new p {
+  color: green;
 }
-/*#p2 {
- 
-  float: right;
-  clear: right;
- 
+
+button {
+  background-color: blue;
+  color: white;
+  border: orange 2px solid;
+  width: 300px;
 }
-*/
+
 
 /* footer*/
 
@@ -155,10 +139,4 @@ footer {
   clear: both;
   margin: 20px;
 
-}
-
-@media screen (min-width: 480px) and (max-width: 700px) {
-  #para {
-    width: 50%;
-  }
 }
