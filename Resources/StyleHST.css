@@ -51,6 +51,7 @@ li {
   /* Banner video */
 
   .banner video {
+    display: block;
     background-size: cover;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -78,8 +79,8 @@ h1 {
 .heading p {
   margin-right: 300px;
   margin-left: 300px;
+ 
 }
-
 
 
 /* share links*/
@@ -112,16 +113,19 @@ h1 {
   flex-direction: row;
 
 }
-.new {
+.new-new {
+  flex: 1; 
   display: inline-flex;
   flex-direction: column;
   padding: 50px;
   justify-content: center;
   align-items: center;
+
 }
 
-.new p {
+.new-new p {
   color: green;
+  text-align: center;
 }
 
 button {
@@ -140,3 +144,31 @@ footer {
   margin: 20px;
 
 }
+
+/* media queries */
+@media screen and (max-width: 600px) {
+  .heading > p {
+    margin: 50px;
+}
+  .newtosit {
+    flex-direction: column;
+  }
+  .flexboxpics {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flexboxpics img {
+    width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1030px) {
+    .flexboxpics img{
+      width: 100%
+        
+      }
+
+    }
+  
+  
+  
