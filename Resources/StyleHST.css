@@ -7,7 +7,11 @@
   
 }
 
+/* header Bootstrap */
 
+.container {
+  
+}
 /* Nav menu */
 
 .flexboxheader {
@@ -67,7 +71,6 @@ li {
 
 h1 {
   
-  background-color: rgb(214, 14, 14);
   color: black;
   padding-top: 45px;
   padding-bottom: 45px;
@@ -145,7 +148,8 @@ footer {
 
 }
 
-/* media queries */
+/* media queries  screen size max 600px*/
+
 @media screen and (max-width: 600px) {
   .heading > p {
     margin: 50px;
@@ -160,11 +164,18 @@ footer {
   .flexboxpics img {
     width: 100%;
     }
+  
+  .banner video {
+      height: 50vh;
+    }
   }
+
+
+/* media queries screen size max 1030px */
 
   @media screen and (max-width: 1030px) {
     .flexboxpics img{
-      width: 100%
+      width: 50%
         
       }
 
