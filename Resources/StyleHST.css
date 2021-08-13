@@ -85,10 +85,33 @@ h1 {
 
 /* freebie giveaway */
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
+.free {
+  background-color: #ffe400;
 }
+
+.freebie {
+  align-items: center;
+}
+.pic42 {
+  display: flex;
+  justify-content: center;
+}
+
+h4 {
+  text-align:center;
+  color: #FF652F;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.imgfree {
+ width: 50%;
+ height:auto;
+ padding: 25px;
+}
+
+
 
 
   /* share links*/
@@ -112,6 +135,15 @@ h1 {
 .flexboxpics img {
 border: hotpink 5px solid;
 
+}
+
+/* bootstrap test */
+
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
 }
 
 /* Paragraphs lorem ipsum */
@@ -153,11 +185,23 @@ footer {
 
 }
 
-/* media queries  screen size max 300px*/
+/* media queries  screen size max 700px */
 
 @media screen and (max-width: 600px) {
+
+  .heading {
+    height: 50vh;
+  }
+
   .heading > p {
     margin: 50px;
+    justify-content: flex-end;
+    margin: 10px;
+
+}
+
+  .free {
+    padding-bottom: 20px;
 }
   .newtosit {
     flex-direction: column;
@@ -169,14 +213,15 @@ footer {
   .flexboxpics img {
     width: 100%;
     }
-  
+
   .banner video {
       height: 50vh;
     }
+/* media queries screen size max 1030px */
+
   }
 
 
-/* media queries screen size max 1030px */
 
   @media screen and (max-width: 1030px) {
     .flexboxpics img{
@@ -186,5 +231,6 @@ footer {
 
     }
   
+ 
   
   
